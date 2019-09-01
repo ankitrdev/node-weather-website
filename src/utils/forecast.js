@@ -10,7 +10,7 @@ const forecast = (latitude, logitute, callback)=>{
             callback('We are unable to provide you with required result at this moment', undefined)
         } else{
             callback(undefined, 
-            `It will be ${body.daily.data[0].summary} with temparture of ${body.currently.apparentTemperature} fahrenheit and ${body.currently.precipProbability} percent posibility of rain `
+            `It will be ${body.daily.data[0].summary} High today is ${body.daily.data[0].temperatureHigh} with temparture of ${body.currently.apparentTemperature} fahrenheit and ${body.currently.precipProbability} percent posibility of rain `
             )
         }
     })
