@@ -4,7 +4,7 @@
   "description": "This is the new web server",
   "main": "index.js",
   "scripts": {
-    "test": "hello testing"
+    "start":"node src/app.js"
   },
   "author": "Arya",
   "license": "ISC",
